@@ -1,8 +1,13 @@
+*{
+    background-color: aliceblue;
+}
 #logo-text{
     color: brown;
     align-self:center;
+    text-align: right;
     margin-left: 20px;
-    margin-top: 30px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 img.logo{
@@ -10,7 +15,10 @@ img.logo{
     height: 100px;
     border-radius: 50%;
 }
-
+h1.logo{
+    display: flex;
+    flex-direction: row;
+}
 .head{
     display: flex;
     flex-direction: row;
